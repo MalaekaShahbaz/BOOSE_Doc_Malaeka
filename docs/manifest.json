@@ -1,0 +1,504 @@
+{
+  "source_base_path": "C:/Users/c3667314/source/repos/ase-boose-assignment-MalaekaShahbaz",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETest_App.Test1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETest_App.Test1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETest_App.Test1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETest_App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETest_App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETest_App",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Test.AppRealTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Test.AppRealTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Test.AppRealTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Test.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Test",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppBool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppBool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">factory that creates application specific <xref href=\"BOOSE.ICommand\" data-throw-if-not-resolved=\"false\"></xref> instances.\nreturns the restricted command implimentations for commands the application overrides.\nfor e.g. circle, rect, moveto, and delegates to the base <xref href=\"BOOSE.CommandFactory\" data-throw-if-not-resolved=\"false\"></xref>\nfor any other command names.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppFor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppFor",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppFor.yml\" sourcestartlinenumber=\"1\">Interpreter that supports integer variables, assignments and structured for/end for loops,\nplus basic drawing commands: <code>pen</code>, <code>moveto</code>, <code>circle</code>, <code>rect</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppInt",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppInt.yml\" sourcestartlinenumber=\"1\">Minimal interpreter for the small BOOSE-like script shown by the user.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppMethods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppMethods",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppMethods.yml\" sourcestartlinenumber=\"1\">Interpreter extended with simple method definitions and calls.\nSupports method declaration form:\nmethod int Name int p1, int p2\nName = &lt;expression&gt;\nend method\nand invocation:\ncall Name arg1 arg2</p>\n<p sourcefile=\"api/BooseApp.AppMethods.yml\" sourcestartlinenumber=\"9\">The call evaluates the method body in a local scope and stores the result\nin a global variable named after the method so subsequent &quot;write Name&quot; or\nother expressions can reference it.</p>\n<p sourcefile=\"api/BooseApp.AppMethods.yml\" sourcestartlinenumber=\"13\">Implementation reuses most of the AppFor language features (loops, expressions, commands).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppReal",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppReal.yml\" sourcestartlinenumber=\"1\">Simple real-number interpreter for a small BOOSE-like script.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.AppWhile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.AppWhile",
+      "Summary": "<p sourcefile=\"api/BooseApp.AppWhile.yml\" sourcestartlinenumber=\"1\">Interpreter that supports integer variables, assignments and structured while/end while loops,\nplus basic drawing commands: pen, moveto, circle, rect and nested if/else/end if inside blocks.\nImplements <xref href=\"BooseApp.IInterpreter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Applfs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Applfs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Applfs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Array.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Array.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Array",
+      "Summary": "<p sourcefile=\"api/BooseApp.Array.yml\" sourcestartlinenumber=\"1\">Minimal interpreter that supports:</p>\n<ul sourcefile=\"api/BooseApp.Array.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"api/BooseApp.Array.yml\" sourcestartlinenumber=\"2\">int and real variable declarations</li>\n<li sourcefile=\"api/BooseApp.Array.yml\" sourcestartlinenumber=\"3\">array declarations: &quot;array int name size&quot; / &quot;array real name size&quot;</li>\n<li sourcefile=\"api/BooseApp.Array.yml\" sourcestartlinenumber=\"4\">poke: &quot;poke arr index = expr&quot;  (assign into array)</li>\n<li sourcefile=\"api/BooseApp.Array.yml\" sourcestartlinenumber=\"5\">peek: &quot;peek var = arr index&quot;   (read from array into variable)</li>\n<li sourcefile=\"api/BooseApp.Array.yml\" sourcestartlinenumber=\"6\">pen, moveto, circle, write\nThis class is intentionally small and deterministic for UI use.</li>\n</ul>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.CanvasSingleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.CanvasSingleton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.CanvasSingleton",
+      "Summary": "<p sourcefile=\"api/BooseApp.CanvasSingleton.yml\" sourcestartlinenumber=\"1\">Provides a single shared <xref href=\"BOOSE.ICanvas\" data-throw-if-not-resolved=\"false\"></xref> instance for the application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Circle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Circle",
+      "Summary": "<p sourcefile=\"api/BooseApp.Circle.yml\" sourcestartlinenumber=\"1\">Command that draws an outlined circle on the application's canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Form1",
+      "Summary": "<p sourcefile=\"api/BooseApp.Form1.yml\" sourcestartlinenumber=\"1\">Main application form for the BOOSE interpreter UI.\nHosts the program input textbox, a Run button, an error log and a picture box that displays the drawing canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.IAppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.IAppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.IAppCanvas",
+      "Summary": "<p sourcefile=\"api/BooseApp.IAppCanvas.yml\" sourcestartlinenumber=\"1\">simple bitmap canvas implimentation of ICanvas from BOOSE\nProvides basic drawning methods like moveto, drawto, circle, rect, tri, writetext.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.IInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.IInterpreter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.IInterpreter",
+      "Summary": "<p sourcefile=\"api/BooseApp.IInterpreter.yml\" sourcestartlinenumber=\"1\">Defines a simple interpreter contract for executing BOOSE-style program text.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.MoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.MoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.MoveTo",
+      "Summary": "<p sourcefile=\"api/BooseApp.MoveTo.yml\" sourcestartlinenumber=\"1\">command that moves the current pen position to the specific coordinates on the canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Rectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Rectangle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Rectangle",
+      "Summary": "<p sourcefile=\"api/BooseApp.Rectangle.yml\" sourcestartlinenumber=\"1\">Command that draws the Rectangle on the <xref href=\"BOOSE.Canvas\" data-throw-if-not-resolved=\"false\"></xref>\nvalidates two integer parameters (width, height) and throws user facing <xref href=\"BOOSE.CanvasException\" data-throw-if-not-resolved=\"false\"></xref>\nfor invalid input.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Tests.AppBoolTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Tests.AppBoolTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Tests.AppBoolTests",
+      "Summary": "<p sourcefile=\"api/BooseApp.Tests.AppBoolTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BooseApp.AppBool\" data-throw-if-not-resolved=\"false\"></xref> interpreter, verifying boolean write behavior\nand that subsequent commands (like <code>moveto</code>) update the canvas as expected.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Tests.AppForTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Tests.AppForTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Tests.AppForTests",
+      "Summary": "<p sourcefile=\"api/BooseApp.Tests.AppForTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BooseApp.AppFor\" data-throw-if-not-resolved=\"false\"></xref> interpreter, verifying behavior of for-loops\nand effects on the canvas state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Tests.AppMethodsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Tests.AppMethodsTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Tests.AppMethodsTests",
+      "Summary": "<p sourcefile=\"api/BooseApp.Tests.AppMethodsTests.yml\" sourcestartlinenumber=\"1\">Tests for method declaration, autocorrection and invocation behavior in the AppMethods interpreter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Tests.AppWhileTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Tests.AppWhileTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Tests.AppWhileTests",
+      "Summary": "<p sourcefile=\"api/BooseApp.Tests.AppWhileTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BooseApp.AppWhile\" data-throw-if-not-resolved=\"false\"></xref> interpreter, verifying that while-loops\nexecute their body and update the canvas state as expected.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Tests.ArrayTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Tests.ArrayTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Tests.ArrayTests",
+      "Summary": "<p sourcefile=\"api/BooseApp.Tests.ArrayTests.yml\" sourcestartlinenumber=\"1\">Unit tests covering array operations and the <code>moveto</code> command for the\n<xref href=\"BooseApp.Array\" data-throw-if-not-resolved=\"false\"></xref> interpreter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Tests.IAppCanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Tests.IAppCanvasTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Tests.IAppCanvasTests",
+      "Summary": "<p sourcefile=\"api/BooseApp.Tests.IAppCanvasTests.yml\" sourcestartlinenumber=\"1\">Contains unit tests for the <xref href=\"BooseApp.IAppCanvas\" data-throw-if-not-resolved=\"false\"></xref> class.\nThese tests validate canvas position updates, drawing behaviors, and state consistency.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Tests.Interpreters_Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Tests.Interpreters_Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Tests.Interpreters_Tests",
+      "Summary": "<p sourcefile=\"api/BooseApp.Tests.Interpreters_Tests.yml\" sourcestartlinenumber=\"1\">Collection of integration-style unit tests that exercise the various interpreter\nimplementations provided by the BooseApp project.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BooseApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BooseApp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BooseApp",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "y/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "y/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "y/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "y/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "y/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "y/toc.html"
+        },
+        ".json": {
+          "relative_path": "y/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
