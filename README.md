@@ -1,2 +1,2 @@
 **Link to webpage**: 
-https://malaekashahbaz.github.io/BOOSE_Doc_Malaeka/
+https://malaekashahbaz.github.io/BOOSE_Doc_Malaeka/index.html
